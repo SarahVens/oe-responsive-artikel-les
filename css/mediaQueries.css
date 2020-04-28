@@ -1,0 +1,15 @@
+@media only screen and (min-width : 1500px) {
+      article {
+            background-color: cornsilk;
+      }
+
+      body {
+            width: 50%;
+            margin-right: auto;
+            margin-left: auto;
+      }
+
+      footer > p {
+            width: 50%;
+      }
+}

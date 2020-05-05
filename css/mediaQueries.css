@@ -1,3 +1,30 @@
+@media only screen and (max-width: 400px) {
+      .forMobile {
+            display: inline-block;
+            background-color: crimson;
+            color: white;
+            text-align: center;
+      }
+
+      aside {
+            float: none;
+            display: inline-block;
+            background-color: bisque;
+            width: 90%;
+            border: solid;
+            margin-bottom: 5px;
+      }
+
+      section {
+            width: 90%;
+      }
+
+      article {
+            background-color: bisque;
+            width: 100%;
+      }
+}
+
 @media only screen and (min-width : 1500px) {
       article {
             background-color: cornsilk;
@@ -11,5 +38,31 @@
 
       footer > p {
             width: 50%;
+      }
+}
+
+
+
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+      .forPC {
+            display: inline-block;
+            background-color: crimson;
+            color: white;
+      }
+
+      section {
+            width: 74%;
+      }
+
+      aside {
+            background-color: coral;
+            width: 18%;
+            padding: 10px;
+      }
+
+      article {
+            width: 100%;
+            text-align: center;
+            background-color: yellow;
       }
 }
